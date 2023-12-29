@@ -1,5 +1,5 @@
 # Aplikasi Pengenalan Batu, Kertas, Gunting dengan Transfer Learning
-# Deskripsi Proyek
+## Deskripsi Proyek
 Proyek ini menggunakan transfer learning untuk membuat model pengenalan gambar batu, kertas, dan gunting. Dataset awalnya diunduh dalam format zip (rps.zip), dan kemudian dipecah menjadi set pelatihan, validasi, dan uji. Selanjutnya, dilakukan augmentasi data menggunakan ImageDataGenerator untuk meningkatkan kinerja model.
 
 # Struktur Direktori
