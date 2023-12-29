@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors Predictor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="upload-container">
+                <div class="upload-form">
+                    <h1>🤖 Rock Paper Scissors Predictor</h1>
+                    <p>Upload an image and let the AI predict whether it's rock, paper, or scissors!</p>
+                    <form action="/upload" method="post" enctype="multipart/form-data">
+                        <label for="file-upload" class="custom-file-upload">
+                            <i class="fas fa-cloud-upload-alt"></i> Choose a file
+                        </label>
+                        <input id="file-upload" type="file" name="file" accept=".png, .jpg, .jpeg">
+                        <button type="submit" class="submit-btn">Predict</button>
+                    </form>
+                </div>
+            </div>
+            <div class="info-container">
+                <h2>How it Works</h2>
+                <p>1. Upload an image of your hand gesture.</p>
+                <p>2. Click the "Predict" button.</p>
+                <p>3. Get the AI's prediction and confidence level!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

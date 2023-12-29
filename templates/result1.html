@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Result - Rock Paper Scissors Predictor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="result-container">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='uploads/uploaded_image.png') }}" alt="Uploaded Image" class="uploaded-image">
+            </div>
+            <div class="info-container">
+                <h2>Prediction Result</h2>
+                <div class="result-details">
+                    <p class="prediction-text">Prediction: {{ prediction }}</p>
+                    <p class="confidence-text">Confidence: {{ "%0.2f" % (confidence * 100) }}%</p>
+                    <p class="processing-time-text">Processing Time: {{ processing_time }}</p>
+                    <!-- Add visualization here if needed -->
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <form action="/">
+                <button type="submit" class="clear-upload-btn">Clear Upload</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
