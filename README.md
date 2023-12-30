@@ -39,3 +39,9 @@ Model yang telah dilatih disimpan sebagai model.h5 untuk penggunaan selanjutnya.
 Unduh dataset awal dalam format zip (rps.zip) dan ekstrak ke direktori proyek.
 Jalankan skrip Python (train_model.py) untuk melatih model dan simpan sebagai model.h5.
 Gunakan model untuk melakukan prediksi pada gambar batu, kertas, dan gunting.
+
+## Tampilan Awal
+![](https://github.com/fharaelvina/classify_Image/blob/main/tampilan%20awal.png)
+
+## Hasil
+![](https://github.com/fharaelvina/classify_Image/blob/main/hasil.png)
