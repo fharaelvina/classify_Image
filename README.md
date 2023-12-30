@@ -15,9 +15,8 @@ Satu gambar acak dari setiap kelas pada set pelatihan ditampilkan untuk memberik
 
 ## Augmentasi Data
 Gambar-gambar pada set pelatihan diperkaya melalui augmentasi data menggunakan ImageDataGenerator. Contoh augmentasi termasuk rotasi, pergeseran, dan pembalikan horizontal.
+
 ![](https://github.com/fharaelvina/classify_Image/blob/main/augmented.png)
-
-
 
 ## Transfer Learning dengan MobileNetV2
 Model menggunakan arsitektur MobileNetV2 sebagai base model untuk transfer learning. Lapisan-lapisan MobileNetV2 yang telah dilatih tidak di-train ulang, dan dilanjutkan dengan lapisan GlobalAveragePooling2D dan lapisan Dense dengan fungsi aktivasi softmax.
