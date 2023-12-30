@@ -24,6 +24,12 @@ Model menggunakan arsitektur MobileNetV2 sebagai base model untuk transfer learn
 ## Statistik Pelatihan
 Model dilatih dengan optimizer Adam dan fungsi kerugian categorical crossentropy selama 5 epoch.
 
+### Accuracy
+![](https://github.com/fharaelvina/classify_Image/blob/main/accuracy.png)
+
+### Loss
+![](https://github.com/fharaelvina/classify_Image/blob/main/loss.png)
+
 Akurasi Pelatihan: ~98%
 Akurasi Validasi: ~95%
 ## Simpan Model
