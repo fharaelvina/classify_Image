@@ -15,7 +15,7 @@ Satu gambar acak dari setiap kelas pada set pelatihan ditampilkan untuk memberik
 
 ## Augmentasi Data
 Gambar-gambar pada set pelatihan diperkaya melalui augmentasi data menggunakan ImageDataGenerator. Contoh augmentasi termasuk rotasi, pergeseran, dan pembalikan horizontal.
-
+![](https://drive.google.com/file/d/10QztQUyvR0RVGVT6NRHBHRQb-Rt8uBW1/view?usp=drive_link)
 
 
 
